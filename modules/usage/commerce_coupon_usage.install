@@ -75,6 +75,6 @@ function commerce_coupon_usage_schema() {
 /**
  * Implements hook_update_last_removed().
  */
-function commerce_coupon_usage_last_removed() {
+function commerce_coupon_usage_update_last_removed() {
   return 7002;
 }
